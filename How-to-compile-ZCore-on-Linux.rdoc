@@ -105,11 +105,6 @@ libqrencode (optional) can be installed with:
 Once these are installed, they will be found by configure and a zcore-qt executable will be
 built by default.
 
-=== Notes
-The release is built with GCC and then "strip zcored" to strip the debug
-symbols, which reduces the executable size by about 90%.
-
-
 === miniupnpc
 [miniupnpc](http://miniupnp.free.fr/) may be used for UPnP port mapping.  It can be downloaded from [here](
 http://miniupnp.tuxfamily.org/files/).  UPnP support is compiled in and
@@ -121,19 +116,6 @@ turned off by default.  See the configure options for upnp behavior desired:
 	--enable-upnp-default    UPnP support turned on by default at runtime
 ```
 
-== Disable-wallet mode
-When the intention is to run only a P2P node without a wallet, ZCore may be compiled in
-disable-wallet mode with:
-```
-    ./configure --disable-wallet
-```
-P.S: In this case there is no dependency on Berkeley DB 4.8.
-
-== Additional Configure Flags
-A list of additional configure flags can be displayed with:
-```
-    ./configure --help
-```
 
 == Build
 ```

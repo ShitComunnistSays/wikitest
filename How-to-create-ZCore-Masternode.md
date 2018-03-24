@@ -39,7 +39,7 @@ If you use Windows, consider to use all commands in the Debug Console.
 
 ### 3) In the same folder, execute:
 
-`./zcore-cli genkey`
+`./zcore-cli masternode genkey`
 
 Save this key, we'll use it later
 

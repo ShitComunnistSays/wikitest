@@ -6,7 +6,7 @@ Dedicated IP
 
 Port 17291 Available
 
-Wallet ready, if you use linux compile it 
+Wallet ready, if you use linux [compile it](https://github.com/zcore-coin/source-code/wiki/How-to-compile-ZCore-on-Linux)
 
 (we use zcored to rpc server and zcore-cli to rpc client)
 

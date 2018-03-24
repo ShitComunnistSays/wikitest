@@ -7,8 +7,11 @@ c)Wallet ready, if you use linux compile it
 
 1) Make sure you know your ZCore data folder:
 > **Windows 7+**  | C:\users\<your_user>\AppData\Roaming
+
 > **Windows XP-** | C:\Documents and Settings\<your_user>\Application data\ZCore\
+
 > **Linux**       | ./home/<your_user>/.zcore   or   ./root/.zcore
+
 > **OSX**         | ~/Library/Application Support/ZCore/
 
 2) In the wallet binary folder, execute:

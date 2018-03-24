@@ -1,8 +1,13 @@
 **Requirements:**
+
 a)5000 ZCR
+
 c)Dedicated IP
+
 d)Port 17291 Available
+
 c)Wallet ready, if you use linux compile it 
+
  (we use zcored to rpc server and zcore-cli to rpc client)
 
 1) Make sure you know your ZCore data folder:

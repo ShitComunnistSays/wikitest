@@ -55,7 +55,7 @@ Save this key, we'll use it later
 
 
 
-### 7) After 15 confirmations, close the wallet:
+### 7) If you waited 15 confirmations previously, close the wallet:
 
 `./zcore-cli stop`
 

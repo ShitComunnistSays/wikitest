@@ -8,26 +8,15 @@ Port 17291 Available
 
 Wallet ready, if you use linux [compile it](https://github.com/zcore-coin/source-code/wiki/How-to-compile-ZCore-on-Linux)
 
-(we use zcored to rpc server and zcore-cli to rpc client)
-
-If you use Windows, consider to use all commands in the Debug Console.
+(we will use zcored to rpc server and zcore-cli to rpc client)
 
 
 
 
-### 1) Make sure you know your ZCore data folder:
-` Windows 7+  `
-`C:\users\<your_user>\AppData\Roaming\ZCore`
-
-` Windows XP- `
-`C:\Documents and Settings\<your_user>\Application data\ZCore\`
+### 1) Make sure you know where is your ZCore data folder:
 
 ` Linux`
 `./home/<your_user>/.zcore`   
-
-` OSX`
-`~/Library/Application Support/ZCore/`
-
 
 
 
@@ -65,25 +54,18 @@ Save this key, we'll use it later
 
 ### 9) In the zcore.conf file, change or insert this lines:
 
-> rpcuser={ANY USER OF YOUR CHOICE}
-
-> rpcpassword={ANY PASSWORD OF YOUR CHOICE}                                                                                
-
-> listen=1
-
-> server=1
-
-> daemon=1
-
-> logtimestamps=1
-
-> maxconnections=256
-
-> masternode=1
-
-> masternodeprivkey={GENKEY}
-
-> bind={EXTERNAL IP}:17291
+```
+rpcuser={ANY USER OF YOUR CHOICE}
+rpcpassword={ANY PASSWORD OF YOUR CHOICE}
+listen=1
+server=1
+daemon=1
+logtimestamps=1
+maxconnections=256
+masternode=1
+masternodeprivkey={GENKEY}
+bind={EXTERNAL IP}:17291
+```
  
 Make sure that your **GENKEY** is the same generated in the 3rd step
  

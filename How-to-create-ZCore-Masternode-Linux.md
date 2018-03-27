@@ -1,34 +1,31 @@
  ## **Requirements:**
 
-5000 ZCR
+> 5000 ZCR
 
-Dedicated IP
+> Dedicated IP
 
-Port 17291 Available
+> Port 17291 Available
 
-Wallet ready, if you use linux [compile it](https://github.com/zcore-coin/source-code/wiki/How-to-compile-ZCore-on-Linux)
-
-(we will use zcored to rpc server and zcore-cli to rpc client)
+> Wallet ready, if you use linux [compile it](https://github.com/zcore-coin/source-code/wiki/How-to-compile-ZCore-on-Linux)
+_(we will use zcored to rpc server and zcore-cli to rpc client)_
 
 
 
 
 ### 1) Make sure you know where is your ZCore data folder:
 
-` Linux`
-`./home/<your_user>/.zcore`   
-
+`/home/<your_user>/.zcore`   
 
 
 ### 2) In the wallet binary folder, execute:
 
-`./zcore-cli getaccountaddress mn1`
+`zcore-cli getaccountaddress mn1`
 
 
 
 ### 3) In the same folder, execute:
 
-`./zcore-cli masternode genkey`
+`zcore-cli masternode genkey`
 
 Save this key, we'll use it later
 

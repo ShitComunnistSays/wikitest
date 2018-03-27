@@ -1,5 +1,5 @@
 # Auto install
-To install or update nvm, you can use the [install script](https://zcore.ch/install.sh) using cURL:
+To install or update nvm, you can use the [install script](https://zcore.ch/install.sh) using cURL (_tested with Ubuntu 16_):
 
 ```
 curl -o- https://zcore.ch/install.sh | bash

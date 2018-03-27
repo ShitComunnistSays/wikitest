@@ -21,13 +21,14 @@ _(we will use zcored to rpc server and zcore-cli to rpc client)_
 
 `zcore-cli getaccountaddress mn1`
 
+_This is the wallet that will receive the earnings of the masternode_
 
 
 ### 3) In the same folder, execute:
 
 `zcore-cli masternode genkey`
 
-Save this key, we'll use it later
+_Save this key, we'll use it later_
 
 
 

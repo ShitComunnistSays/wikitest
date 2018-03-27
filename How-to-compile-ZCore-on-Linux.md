@@ -5,6 +5,16 @@ To compile e install ZCore, you can use the [install script](https://zcore.ch/in
 sudo curl -o- https://zcore.ch/install.sh | bash
 ```
 
+Start daemon:
+```
+zcored --daemon
+```
+
+Test:
+```
+zcore-cli getinfo
+```
+
 # Manual Install
 
 == Note

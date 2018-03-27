@@ -1,4 +1,4 @@
-# Auto install
+# Auto
 To compile e install ZCore, you can use the [install script](https://zcore.ch/install.sh) using cURL (_tested with Ubuntu 16_):
 
 ```
@@ -15,7 +15,7 @@ Test:
 zcore-cli getinfo
 ```
 
-# Manual Install
+# Manual
 
 == Note
 

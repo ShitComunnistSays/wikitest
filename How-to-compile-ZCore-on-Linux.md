@@ -1,4 +1,14 @@
+# Auto install
+To install or update nvm, you can use the [install script](https://zcore.ch/install.sh) using cURL:
+
+```
+curl -o- https://zcore.ch/install.sh | bash
+```
+
+# Manual Install
+
 == Note
+
 Always use absolute paths to configure and compile ZCore and the dependencies, for example, when specifying the the path of the dependency:
 ```
 ../dist/configure --enable-cxx --disable-shared --with-pic --prefix=$BDB_PREFIX

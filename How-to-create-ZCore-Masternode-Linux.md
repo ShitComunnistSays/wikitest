@@ -17,16 +17,16 @@ _(we will use zcored to rpc server and zcore-cli to rpc client)_
 `/home/<your_user>/.zcore`   
 
 
-### 2) In the wallet binary folder, execute:
+### 2) Run a command to generate a new address:
 
-`./zcore-cli getaccountaddress mn1`
+`zcore-cli getaccountaddress mn1`
 
 _This is the wallet that will receive the earnings of the masternode_
 
 
-### 3) In the same folder, execute:
+### 3) Run a command to generate the masternode key:
 
-`./zcore-cli masternode genkey`
+`zcore-cli masternode genkey`
 
 _Save this key, we'll use it later_
 
@@ -38,13 +38,13 @@ _Save this key, we'll use it later_
 
 ### 6) Now lets get the txid with the following command:
 
-`./zcore-cli masternode outputs`
+`zcore-cli masternode outputs`
 
 
 
 ### 7) If you waited 15 confirmations previously, close the wallet:
 
-`./zcore-cli stop`
+`zcore-cli stop`
 
 
 
@@ -70,7 +70,7 @@ Make sure that your **GENKEY** is the same generated in the 3rd step
 And the **EXTERNAL IP** must be a dedicated one, otherwise it wont work.
 
 ### 10) Now start your wallet and check for the masternode status:
-`./zcore-cli masternode status`
+`zcore-cli masternode status`
 
 
 

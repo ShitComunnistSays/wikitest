@@ -1,5 +1,5 @@
 # Auto
-To compile e install ZCore, you can use the [install script](https://zcore.ch/install.sh) using cURL (_tested with Ubuntu 16_):
+To compile and install ZCore, you can use the [install script](https://zcore.ch/install.sh) using cURL (_tested with Ubuntu 16_):
 
 ```
 sudo curl -o- https://zcore.ch/install.sh | bash

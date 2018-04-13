@@ -1,3 +1,4 @@
+```
 No ICO
 No Premine
 ASIC Resistant
@@ -21,4 +22,4 @@ Faster transactions
 
 PrivateSend
 Privacity in your transactions
-
+```

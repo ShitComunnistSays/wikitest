@@ -12,6 +12,7 @@
 ### 1) Make sure you know where is your ZCore data folder:
 Windows XP-
 ` C:\Documents and Settings\{user}\Application Data\ZCore` 
+
 Windows 10  
 `C:\Users\<user>\AppData\ZCore`   
 
@@ -62,6 +63,7 @@ bind={EXTERNAL IP}:17291
 Make sure that your **GENKEY** is the same generated in the 3rd step
  
 And the **EXTERNAL IP** must be a dedicated one, otherwise it wont work.
+
 *Without { } 
 
 ### 10) Now start your wallet and check for the masternode status:
@@ -103,6 +105,6 @@ A. You didnt pay the right price. Generate a new address, or make sure that your
 
 A. Wait 15 confirmations to the 5000 ZCR before start the Masternode.
 
-**My daemon is frozen?**
+**My Wallet is frozen?**
 
 A. In the zcore.conf make sure that you have the line 'daemon=1' before start the daemon.

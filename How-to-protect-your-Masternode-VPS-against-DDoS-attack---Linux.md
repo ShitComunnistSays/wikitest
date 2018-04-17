@@ -74,7 +74,10 @@ Open Masternode port
 ```
 sudo firewall-cmd --permanent --add-port=17291/tcp
 ```
-
+Limit traffic to 10 request per minute
+```
+sudo firewall-cmd --permanent --add-rich-rule='rule service name=ssh limit value=10/m accept'
+```
 Final configuration
 ```
 sudo firewall-cmd --reload
@@ -121,7 +124,8 @@ bantime = 3600
 
 # Flip the comments here if you use iptables instead of firewalld
 #banaction = iptables-multiport
-banaction = firewallcmd-ipset
+port = ssh
+banaction = iptables-multiport
 
 # Enable logging to the systemd journal
 backend = systemd

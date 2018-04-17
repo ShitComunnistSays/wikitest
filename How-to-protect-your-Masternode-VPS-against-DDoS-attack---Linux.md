@@ -93,24 +93,26 @@ We are done here.
 Utility:
 Fail2Ban verify for bad requests, or hackers trying to attack your vps.
 
-Fedora
-```
-sudo dnf install -y fail2ban fail2ban-systemd
-```
+### Fedora
 
-CentOS or RHEL
+`
+sudo dnf install -y fail2ban fail2ban-systemd
+`
+
+### CentOS or RHEL
 ```
 sudo yum install epel-release # if not already installed
 sudo yum install -y fail2ban fail2ban-systemd
 ```
-Debian or Ubuntu
-```
-sudo apt install -y fail2ban
-```
+
+### Debian or Ubuntu
+
+`sudo apt install -y fail2ban`
 
 If you are not using FirewallD, and instead are using IPTables for your firewall, uninstall fail2ban-firewalld (for the Red Hat-based systems only).
 
 `sudo dnf remove -y fail2ban-firewalld # Fedora`
+
 `sudo yum remove -y fail2ban-firewalld # CentOS or RHEL`
 
 ## Configuring Fail2Ban

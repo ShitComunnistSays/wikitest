@@ -17,15 +17,15 @@ Fail2Ban
 ***
 ## Installing FirewallD
 
-Fedora
+### Fedora
 
 `sudo dnf install -y firewalld # Probably already installed`
 
-CentOS or RHEL...
+### CentOS or RHEL...
 
 `sudo yum install -y firewalld # Probably already installed`
 
-Debian or Ubuntu
+### Debian or Ubuntu
 
 `sudo apt install -y firewalld`
 

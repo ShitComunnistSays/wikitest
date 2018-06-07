@@ -20,7 +20,7 @@ Here's a example for PHP connection with RPC client:
      return $json;
  }
 
- //enviar comando para rpc
+ //send rpc command
  function rpcCall($js) {
      global $rpcconn;
 

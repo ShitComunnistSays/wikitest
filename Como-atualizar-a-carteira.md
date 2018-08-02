@@ -21,21 +21,18 @@ https://github.com/zcore-coin/zcore-source/wiki/Como-fazer-backup
 
 2. Instale o novo cliente, execute no terminal:
 
-   `cd ~/`
+   `zcore-cli stop`
 
-   `mkdir zcore`
+   `wget https://github.com/zcore-coin/zcore-source/releases/download/v1.6.0/zcore-1.6.0-x86_64-linux.tar.gz`
 
-   `cd zcore`
+   `tar -xzvf zcore-1.6.0-x86_64-linux.tar.gz`
 
-   `git clone https://github.com/zcore-coin/zcore-source .`
+   `cd zcore-1.6.0/`
 
-   `./autogen.sh`
-
-   `./configure --with-gui=no --disable-tests --disable-gui-tests`
-
-   `make`
-
-   `make install`
+   `cp * /usr/local/ -a`
 
 3. Abra a carteira. ( atualizado )
-  `zcored -daemon`
+
+   `zcored`
+
+   `zcore-cli getinfo`

@@ -32,3 +32,12 @@ Always use the most recent backup.
 2. Copy the file wallet.dat to your backup folder destination.
 
 `cp ./wallet.dat <destination>`
+
+
+## MacOS:
+
+1. Go to .zcore path, running:
+
+`~/Library/Application Support/ZCoreCore/`
+
+2. Copy the file wallet.dat to your backup folder destination.

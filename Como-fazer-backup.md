@@ -34,7 +34,7 @@ Windows 7+:
 `cp ./wallet.dat /pasta/backup`
 
 
-### MacOS:
+### Mac OS:
 
 1. Vá na pasta:
 

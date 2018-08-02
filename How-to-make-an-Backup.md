@@ -1,4 +1,4 @@
-## Before read, you agree with the following:
+## Before read, read the following:
 
 We are not responsible for your wallet.dat!
 
@@ -34,9 +34,9 @@ Always use the most recent backup.
 `cp ./wallet.dat <destination>`
 
 
-## MacOS:
+## Mac OS:
 
-1. Go to .zcore path, running:
+1. Go to ZCoreCore folder:
 
 `~/Library/Application Support/ZCoreCore/`
 

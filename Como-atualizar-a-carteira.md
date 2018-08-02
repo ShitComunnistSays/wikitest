@@ -23,7 +23,7 @@ https://github.com/zcore-coin/zcore-source/wiki/Como-fazer-backup
 
    `cd ~/`
 
-   `mkdir ~/zcore`
+   `mkdir zcore`
 
    `cd zcore`
 

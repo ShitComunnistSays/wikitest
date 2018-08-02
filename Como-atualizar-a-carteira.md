@@ -1,6 +1,6 @@
-Os procedimentos são simples, não há muito segredo.
+Os procedimentos são simples, mas requer atenção.
 
-Antes é preciso fazer o procedimento de backup:
+### Antes é preciso fazer o procedimento de backup:
 
 ### Windows 
 

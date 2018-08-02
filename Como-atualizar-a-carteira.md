@@ -1,25 +1,23 @@
 Os procedimentos são simples, não há muito segredo.
 
+Antes é preciso fazer o procedimento de backup:
+
 ### Windows 
 
-1. Faça backup do arquivo que contém suas zcores ( wallet.dat )
+1. Feche a carteira
 
-2. Feche a carteira
+2. Instale o novo cliente do site ou github.
 
-3. Instale o novo cliente do site ou github.
-
-4. Abra a carteira. ( atualizado )
+3. Abra a carteira. ( atualizado )
 
 
 ### Linux
 
-1. Faça backup do arquivo que contém suas zcores ( wallet.dat )
-
-2. Feche a carteira, execute:
+1. Feche a carteira, execute:
 
   `zcore-cli stop`
 
-3. Instale o novo cliente, execute no terminal:
+2. Instale o novo cliente, execute no terminal:
 
    `cd ~/`
 
@@ -37,5 +35,5 @@ Os procedimentos são simples, não há muito segredo.
 
    `make install`
 
-4. Abra a carteira. ( atualizado )
+3. Abra a carteira. ( atualizado )
   `zcored -daemon`

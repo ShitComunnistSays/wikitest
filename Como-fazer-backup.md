@@ -33,3 +33,11 @@ Windows 7+:
 
 `cp ./wallet.dat /pasta/backup`
 
+
+### MacOS:
+
+1. Vá na pasta:
+
+`~/Library/Application Support/ZCoreCore/`
+
+2. Copie o arquivo 'wallet.dat' para sua pasta final de backup.

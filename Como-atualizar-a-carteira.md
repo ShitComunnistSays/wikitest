@@ -1,6 +1,8 @@
 Os procedimentos são simples, mas requer atenção.
 
-### Antes é preciso fazer o procedimento de backup:
+### Procedimento de backup
+
+https://github.com/zcore-coin/zcore-source/wiki/Como-fazer-backup
 
 ### Windows 
 

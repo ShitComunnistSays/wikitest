@@ -8,6 +8,8 @@ Não indicaremos nenhum serviço de terceiro para manter sua wallet.dat e zcore.
 
 Sempre use o backup mais recente.
 
+No caso de possuir masternodes e estiver migrando de computador, etc. Faça cópia do arquivo masternodes.conf no processo.
+
 ## Windows
 
 1. Encontra a pasta de acordo com seu sistema operacional.

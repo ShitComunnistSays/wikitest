@@ -10,8 +10,18 @@ https://github.com/zcore-coin/zcore-source/wiki/Como-fazer-backup
 
 2. Instale o novo cliente do site ou github.
 
-3. Abra a carteira. ( atualizado )
+3. Abra a carteira nova. ( atualizado )
 
+4. Faça um atalho a partir do arquivo 'zcore-qt.exe',
+ em uma das seguintes pastas:
+ 
+Local de instalação para sistema operacional x64
+
+`C:\Program Files\ZCoreCore\`
+
+Local de instalação para sistema operacional x86
+
+`C:\Program Files (x86)\ZCoreCore\`
 
 ### Linux
 

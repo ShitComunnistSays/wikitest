@@ -130,6 +130,6 @@ R: Não há necessidade, mas aconselhamos separar uma pasta nova para o backup d
 4. Iniciei o masternode e ficou como EXPIRED, o que fazer?
 ```
 R: Esse status ocorre por diversos motivos, mas é normal quando há atualização, poís você precisa fechar a carteira do seu masternode levando ao status citado.
-   Você pode tentar iniciá-lo, caso o mesmo continue, é preciso recria-lo. 
+   Você pode tentar iniciá-lo, caso o mesmo continue, é preciso recriar o masternode. 
    Portanto, se houver a continuação, apague o arquivo 'mnpayments.dat' ( encontrado na pasta ZCoreZCore em AppData no windows ou em .zcore no linux ) e crie novamente o masternode.
 ```

@@ -46,9 +46,9 @@ Não é necessário seguir os passos abaixo para Linux.
 
 1. Feche a carteira
 
-2. Instale o novo cliente do site ou github.
+2. Instale a carteira através do site ou github.
 
-3. Abra a carteira nova. ( atualizado )
+3. Inicie a carteira nova. ( atualizado )
 
 4. Faça um atalho a partir do arquivo 'zcore-qt.exe',
  em uma das seguintes pastas:

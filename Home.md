@@ -6,7 +6,7 @@ ASIC Resistant
 
 Name: ZCore
 Symbol: ZCR
-Algorithm: NeoScrypt
+Algorithm: NeoScrypt - Lyra2z will start 01/september
 Total Supply:  18 millions
 Block Reward: 10 ZCores
 Block time: 90 seconds

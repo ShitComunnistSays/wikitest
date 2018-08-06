@@ -127,7 +127,7 @@ A: Guarde backup do arquivo wallet.dat, e se houver masternodes, também guarde 
 R: Não há necessidade, mas aconselhamos separar uma pasta nova para o backup da nova atualização.
 ```
 
-3. Iniciei o masternode e ficou como EXPIRED, o que fazer?
+4. Iniciei o masternode e ficou como EXPIRED, o que fazer?
 ```
 R: Esse status ocorre por diversos motivos, mas é normal quando há atualização, poís você precisa fechar a carteira do seu masternode levando ao status citado.
    Você pode tentar iniciá-lo, caso o mesmo continue, é preciso recria-lo. 

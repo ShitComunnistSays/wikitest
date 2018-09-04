@@ -1,0 +1,39 @@
+Passo a passo simplificado 
+
+1. Abra a carteira
+2. Abra o console de depuração - **Ferramentas > Console de Depuração**
+3. Crie um novo ENDEREÇO, executando: `getnewaddress`
+4. Envie 5000 zcr para o endereço criado, executando: `sendtoaddress ENDEREÇO 5000`
+5. Aguarda 15 confirmações.
+6. Após confirmado, volte no console de depuração, execute: `masternode genkey`
+7. Também execute: `masternode outputs`
+
+- Copie os dados do passo 6 e 7.
+
+8. Feche a carteira.
+
+9. Abra o arquivo masternode.conf e insira as seguintes informações:
+
+nomeQualquer IP:DO:SEU:VPS:17291 GENKEY_PASSO_6 GENKEY_PASSO_7
+
+Exemplo: 
+```
+mn1 127.0.0.2:17291 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a 0
+```
+
+Salve o arquivo.
+
+10. No terminal da VPS, execute:
+```
+sudo curl -o- https://raw.githubusercontent.com/zcore-coin/masternode-auto/master/install.sh | bash
+```
+
+Por fim, basta seguir as indicações do script.
+
+11. Inicie sua carteira
+
+12. Ative a aba de masternodes - ** Configurações > Opções > Ativar aba de masternode **
+
+13. Volte a tela principal e abra a aba de masternodes.
+
+14. Selecione seu masternode e clique em start-alias.

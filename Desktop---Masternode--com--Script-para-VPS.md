@@ -14,7 +14,7 @@ Passo a passo simplificado
 
 9. Abra o arquivo masternode.conf e insira as seguintes informações:
 
-nomeQualquer IP:DO:SEU:VPS:17291 GENKEY_PASSO_6 GENKEY_PASSO_7
+nomeQualquer IP:DO:SEU:VPS:17291 PASSO_6 PASSO_7
 
 Exemplo: 
 ```

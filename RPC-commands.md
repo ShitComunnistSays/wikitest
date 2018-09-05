@@ -1,10 +1,18 @@
 ## Follow all rpc commands.
 
-### For a technical usage, download wallet and run: help "command"
-### First configure zcore.conf
-File is inside %AppData%/ZCore or $HOME/.zcore/
+### For specific usage, download wallet and run: help "command"
+### In order to use zcore-cli RPC Cliente, you must first configure zcore.conf
 
-Add/Change these lines:
+#### Windows:
+
+%AppData%/ZCore 
+
+
+#### Linux:
+
+$HOME/.zcore/
+
+#### Add/Change these lines:
 ```
 rpcuser=ruser
 rpcpassword=rpassword
@@ -14,17 +22,18 @@ daemon=1
 server=1
 ```
 
-### In Linux:
-Daemon Usage: 
+### Linux - RPC Client: 
 `./zcore-cli COMMAND`
 
-Curl Usage:
-`curl --user 'ruser' --data-binary '{"jsonrpc":"1.0","id":"curltext","method":"getinfo","params":[]}' -H 'content-type:text/plain;' http://127.0.0.1:51314`
+### Curl 
+`curl --user 'User' --data-binary '{"jsonrpc":"1.0","id":"curltext","method":"getinfo","params":[]}' -H 'content-type:text/plain;' http://127.0.0.1:PORT`
 
-*Password is the same rpcpassword
+*User is the same **rpcuser **in zcore.conf
+*Password is the same **rpcpassword **in zcore.conf
+*PORT is the same **rpcport **in zcore.conf
 
-### In Windows:
-Go to Tools/Debug Console and run the command.
+### Windows:
+Go to **Tools / Debug Console** and run the command.
 
 
  Command          | Description                        | Params         | Sector

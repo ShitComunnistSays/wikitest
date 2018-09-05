@@ -27,8 +27,10 @@ Salve o arquivo.
 ```
 sudo curl -o- https://raw.githubusercontent.com/zcore-coin/masternode-auto/master/install.sh | bash
 ```
+Siga as instruções no script.
 
-Por fim, basta seguir as indicações do script.
+* No final do comando será mostrado todos detalhes do Masternode, é de muita importância que você os guarde
+para eventual uso.
 
 11. Inicie sua carteira
 

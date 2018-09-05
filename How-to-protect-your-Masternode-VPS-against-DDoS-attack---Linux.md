@@ -1,8 +1,7 @@
 ## Problem
 Since all Masternode IP address is visible in all wallets, it's possible that someone try to attack one or many. 
-Like a 51% Attack ( never happen in NeoScrypt algorithm).
 
-Depending of your VPS specifications, it could restart and you'd lose some coins, till it turn on again.
+Depending on your VPS specifications, it could restart and you'd lose some coins, till it turn on again.
 ***
 
 ## Solution

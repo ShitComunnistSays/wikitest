@@ -1,4 +1,4 @@
-**Passo a passo simplificado **
+**Passo a passo simplificado**
 
 Pasta de arquivos de configuração:
 

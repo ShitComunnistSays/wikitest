@@ -3,8 +3,11 @@
 Pasta de arquivos de configuração:
 
 MacOS - ~/Library/Application Support/ZCoreCore/
+
 Linux - /home/user/.zcore/
+
 Windows XP- C:\Documents and Settings\{user}\Application Data\ZCoreCore
+
 Windows 10 - C:\Users\<user>\AppData\ZCoreCore
 
 1. Abra a carteira

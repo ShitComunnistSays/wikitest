@@ -1,4 +1,11 @@
-Passo a passo simplificado 
+**Passo a passo simplificado **
+
+Pasta de arquivos de configuração:
+
+MacOS - ~/Library/Application Support/ZCoreCore/
+Linux - /home/user/.zcore/
+Windows XP- C:\Documents and Settings\{user}\Application Data\ZCoreCore
+Windows 10 - C:\Users\<user>\AppData\ZCoreCore
 
 1. Abra a carteira
 2. Abra o console de depuração - **Ferramentas > Console de Depuração**
@@ -14,7 +21,9 @@ Passo a passo simplificado
 
 9. Abra o arquivo masternode.conf e insira as seguintes informações:
 
+```
 nomeQualquer IP:DO:SEU:VPS:17291 PASSO_6 PASSO_7
+```
 
 Exemplo: 
 ```
@@ -32,10 +41,22 @@ Siga as instruções no script.
 * No final do comando será mostrado todos detalhes do Masternode, é de muita importância que você os guarde
 para eventual uso.
 
-11. Inicie sua carteira
+11. Inicie sua carteira Desktop.
 
 12. Ative a aba de masternodes - ** Configurações > Opções > Ativar aba de masternode **
 
 13. Volte a tela principal e abra a aba de masternodes.
 
 14. Selecione seu masternode e clique em start-alias.
+
+
+Inicialmente ficará PRE-ENABLED.
+
+Posteriormente mudará para ENABLED. Leva cerca de 1-2 horas.
+
+Dependendo da condição da VPS, ela pode vir a ter o status EXPIRED,
+
+Clique novamente em start-alias e caso ocorra o mesmo erro, feche a carteira e apague o arquivo mnpayments.dat na pasta de configuração.
+
+Tente novamente clicar em start-alias. Se o problema persistir, refaça os procedimentos de criação.
+

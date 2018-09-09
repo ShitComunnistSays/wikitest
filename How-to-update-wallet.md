@@ -26,7 +26,7 @@ In Wallet v1.6.0 should be:
 ## Masternode Update 
 
 #### Only continue if you follow backup procedure.
-#### Only for those who'd auto-install script;
+#### Only for those who used auto-install script;
 #### If you didnt, please skip to Linux sector.
 
 1. Login in root user.

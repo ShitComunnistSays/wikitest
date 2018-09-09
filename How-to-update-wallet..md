@@ -2,11 +2,30 @@ All procedures are simple, but requires attention.
 
 ## Backup procedure
 
-https://github.com/zcore-coin/zcore-source/wiki/Como-fazer-backup
+https://github.com/zcore-coin/zcore-source/wiki/How-to-make-an-Backup
 
+## Wallet version check
+
+#### To check if your wallet is running in lastest version run:
+
+#### Linux:
+ 
+`zcore-cli getinfo`
+
+#### Windows / MacOS:
+
+Go to Options > Debug Console, and execute:
+getinfo
+
+In Wallet v1.6.0 should be:
+
+...
+  "version": 1060000,
+...
 
 ## Masternode Update 
 
+#### Only continue if you follow backup procedure.
 #### Only for those who'd auto-install script;
 #### If you didnt, please skip to Linux sector.
 
@@ -33,14 +52,7 @@ cp * /usr/local/ -a
 
 `systemctl start worker01.service`
 
-Now check if your wallet is running in lastest version running:
-
-`zcore-cli getinfo`
-
-In Wallet v1.6.0 should be:
-...
-  "version": 1060000,
-...
+#### Now check if your wallet is running in lastest version running.
 
 ***
 
@@ -64,6 +76,9 @@ Windows x64
 Windows x86
 
 `C:\Program Files (x86)\ZCoreCore\`
+
+
+#### Now check if your wallet is running in lastest version running.
 
 ***
 
@@ -104,6 +119,8 @@ Windows x86
    2. Select Masternode to be started.
 
    3. Click in start-alias.
+
+#### Now check if your wallet is running in lastest version running.
 
 ***
 

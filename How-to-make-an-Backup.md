@@ -11,13 +11,8 @@ Always use the most recent backup.
 
 ## Windows
 
-1. Find your correct path, according to your O.S.
-
-### Windows XP: 
-`C:\Documents and Settings\<user>\Application Data\ZCoreCore`
-
-### Windows 7+: 
-`C:\Users\<user>\AppData\Roaming\ZCoreCore`
+1. Find your correct path, according to your O.S:
+https://github.com/zcore-coin/zcore-source/wiki
 
 2. Copy the file wallet.dat to your backup folder destination.
 

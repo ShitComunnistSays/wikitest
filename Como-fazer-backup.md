@@ -10,34 +10,26 @@ Sempre use o backup mais recente.
 
 No caso de possuir masternodes e estiver migrando de computador, etc. Faça cópia do arquivo masternodes.conf no processo.
 
-## Windows
+## Arquivos de backup
 
-1. Encontra a pasta de acordo com seu sistema operacional.
+Arquivo | Descrição | Obrigatório | Prioridade
+--------|-----------|--------- |-----------
+wallet.dat | Arquivo que contém todo seus endereços e o saldo referente ao endereço. | Sim | Máxima
+masternode.conf | Arquivo que contém configurações de Masternodes, usado apenas por carteiras 'cold-wallet'. | Apenas se utilizado. | Média
+zcore.conf | Arquivo com configurações da carteira, e se usado por masternode, pode conter a genkey referente ao mesmo. | Apenas se utilizado. | Baixa
 
-Windows XP: 
-`C:\Documents and Settings\<user>\Application Data\ZCoreCore`
+## Windows / MacOS 
+1. Encontre a pasta de acordo com seu sistema operacional.
 
-Windows 7+: 
-`C:\Users\<user>\AppData\Roaming\ZCoreCore`
+https://github.com/zcore-coin/zcore-source/wiki
 
-2. Faça backup do arquivo wallet.dat para sua pasta final de backup.
+2. Faça backup dos arquivos acima para sua pasta final de backup.
 
 ## Linux
 
-1. Entra na pasta .zcore, execute no terminal:
+Para copiar o arquivo via terminal, execute:
 
-`cd ~/.zcore/`
+`cp ~/.zcore/wallet.dat /pasta/de/backup`
 
+#### Lembre-se de estar logado no usuário onde a carteira esta instalada.
 
-2. Copie o arquivo 'wallet.dat' para sua pasta final de backup.
-
-`cp ./wallet.dat /pasta/backup`
-
-
-### Mac OS:
-
-1. Vá na pasta:
-
-`~/Library/Application Support/ZCoreCore/`
-
-2. Copie o arquivo 'wallet.dat' para sua pasta final de backup.

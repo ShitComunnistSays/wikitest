@@ -20,7 +20,7 @@ https://github.com/zcore-coin/zcore-source/wiki
 
 `$ zcore-cli getnewaddress`
 
-_This is the wallet that will receive the earnings of the masternode_
+_This is the address that will receive the earnings of the masternode_
 _You can use all earning without any problem, 5000 keeps locked until undo the masternode_
 
 ### 3) Now send exactly 5000 ZCR to the address generated at the 2nd step

@@ -14,7 +14,7 @@ No caso de possuir masternodes e estiver migrando de computador, etc. Faça cóp
 
 Arquivo | Descrição | Obrigatório | Prioridade
 --------|-----------|--------- |-----------
-wallet.dat | Arquivo que contém todo seus endereços e o saldo referente ao endereço. | Sim | Máxima
+wallet.dat | Arquivo que contém todos seus endereços e o saldo referente ao endereço. | Sim | Máxima
 masternode.conf | Arquivo que contém configurações de Masternodes, usado apenas por carteiras 'cold-wallet'. | Apenas se utilizado. | Média
 zcore.conf | Arquivo com configurações da carteira, e se usado por masternode, pode conter a genkey referente ao mesmo. | Apenas se utilizado. | Baixa
 
@@ -27,9 +27,9 @@ https://github.com/zcore-coin/zcore-source/wiki
 
 ## Linux
 
-Para copiar o arquivo via terminal, execute:
+Para copiar os arquivos via terminal, execute:
 
-`cp ~/.zcore/wallet.dat /pasta/de/backup`
+`cp ~/.zcore/ARQUIVO /pasta/de/backup`
 
 #### Lembre-se de estar logado no usuário onde a carteira esta instalada.
 

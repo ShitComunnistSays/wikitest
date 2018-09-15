@@ -31,7 +31,7 @@ S.O         | ZCore Path
 ------------|---------------
 Windows XP  | C:\Documents and Settings\USER\Application Data\ZCore
 Windows 7+  | C:\Users\USER\AppData\Roaming\ZCoreCore
-MacOSX      | ~/Library/Application Support/ZCoreCore/
+MacOS      | ~/Library/Application Support/ZCoreCore/
 Linux       | /root/.zcore or /home/USER/.zcore   
 
 ***

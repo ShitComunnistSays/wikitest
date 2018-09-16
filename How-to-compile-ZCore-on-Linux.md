@@ -49,7 +49,7 @@ zcore-cli getinfo
 
 # Manual
 
-== Note
+### Note
 
 Always use absolute paths to configure and compile ZCore and the dependencies, for example, when specifying the the path of the dependency:
 ```
@@ -60,7 +60,7 @@ Here BDB_PREFIX must absolute path - it is defined using $(pwd) which ensures th
 
 This will build zcore-qt as well if the dependencies are met.
 
-== Dependencies
+### Dependencies
 
 Required: 
 
@@ -81,14 +81,14 @@ Optional dependencies:
  libqrencode | QR codes in GUI  | Optional for generating QR codes (only needed when GUI enabled)
  libzmq3     | ZMQ notification | Optional, allows generating ZMQ notifications (requires ZMQ version >= 4.x)
 
-== System requirements
+### System requirements
 
 C++ compilers are memory-hungry. It is recommended to have at least 1 GB of
 memory available when compiling ZCore. With 512MB of memory or less
 compilation will take much longer due to swap thrashing.
 
-== Dependency Build Instructions: Ubuntu & Debian
-=== Build requirements:
+### Dependency Build Instructions: Ubuntu & Debian
+#### Build requirements:
 ```
     sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils
 ```
@@ -106,7 +106,7 @@ If that doesn't work, you can install all boost development packages with:
 ```
     sudo apt-get install libboost-all-dev
 ```
-=== BerkeleyDB
+#### BerkeleyDB
 
 BerkeleyDB is required for the wallet. db4.8 packages are available [here](https://launchpad.net/~bitcoin/+archive/bitcoin).
 You can add the repository and install using the following commands:
@@ -131,7 +131,7 @@ ZMQ dependencies:
     sudo apt-get install libzmq3-dev (provides ZMQ API 4.x)
 ```
 
-== Dependencies for the GUI: Ubuntu & Debian
+### Dependencies for the GUI: Ubuntu & Debian
 
 If you want to build ZCore-Qt, make sure that the required packages for Qt development
 are installed. Either Qt 5 or Qt 4 are necessary to build the GUI.
@@ -157,7 +157,7 @@ libqrencode (optional) can be installed with:
 Once these are installed, they will be found by configure and a zcore-qt executable will be
 built by default.
 
-=== miniupnpc
+#### miniupnpc
 [miniupnpc](http://miniupnp.free.fr/) may be used for UPnP port mapping.  It can be downloaded from [here](
 http://miniupnp.tuxfamily.org/files/).  UPnP support is compiled in and
 turned off by default.  See the configure options for upnp behavior desired:
@@ -169,7 +169,7 @@ turned off by default.  See the configure options for upnp behavior desired:
 ```
 
 
-== Build
+### Build
 ```
 ./autogen.sh
 ./configure

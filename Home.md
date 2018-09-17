@@ -27,7 +27,7 @@ Privacity in your transactions
 
 ***
 
-S.O         | ZCore Path
+O.S.        | ZCore Path
 ------------|---------------
 Windows XP  | C:\Documents and Settings\USER\Application Data\ZCore
 Windows 7+  | C:\Users\USER\AppData\Roaming\ZCoreCore

@@ -27,6 +27,20 @@ Privacity in your transactions
 
 ***
 
+Tutorial    | Description        | Link
+------------|--------------------|--------
+General OS  | How to Update      | [Go](https://github.com/zcore-coin/zcore-source/wiki/How-to-update-wallet)
+Linux       | Build Wallet       | [Go](https://github.com/zcore-coin/zcore-source/wiki/How-to-compile-ZCore-on-Linux)
+Linux       | Create Masternode in VPS | [Go](https://github.com/zcore-coin/zcore-source/wiki/How-to-create-ZCore-Masternode-Linux-VPS)
+Windows     | Create Masternode in VPS | [Go](https://github.com/zcore-coin/zcore-source/wiki/How-to-Create-ZCore-Masternode-in-Windows-VPS)
+Backup      | How to backup | [Go](https://github.com/zcore-coin/zcore-source/wiki/How-to-make-an-Backup)
+Linux | Protection Against DDoS | [Go](https://github.com/zcore-coin/zcore-source/wiki/How-to-protect-your-Masternode-VPS-against-DDoS-attack---Linux)
+Development | PHP connection to RPC | [Go](https://github.com/zcore-coin/zcore-source/wiki/PHP-RPC)
+Development | RPC commands | [Go](https://github.com/zcore-coin/zcore-source/wiki/RPC-commands)
+Development | Wallet commands | [Go](https://github.com/zcore-coin/zcore-source/wiki/Wallet-command-list)
+
+***
+
 O.S.        | ZCore Path
 ------------|---------------
 Windows XP  | C:\Documents and Settings\USER\Application Data\ZCore

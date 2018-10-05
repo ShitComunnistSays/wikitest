@@ -4,7 +4,7 @@ Você é responsável pela sua carteira.
 
 Se você esquecer sua senha, não há como recuperar, então mantenha sempre um backup com a senha mais recente.
 
-Não indicaremos nenhum serviço de terceiro para manter sua wallet.dat e zcore.
+Não indicaremos nenhum serviço de terceiro para manter seu backup.
 
 Sempre use o backup mais recente.
 

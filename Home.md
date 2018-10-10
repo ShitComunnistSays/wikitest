@@ -10,7 +10,7 @@ Algorithm: Lyra2z
 Total Supply:  18 millions
 Block Reward: 10 ZCores
 Block time: 90 seconds
-Halving: 25% every 394.200 blocks - ~1 year
+Halving: 4% every 394.200 blocks - ~1 year ( fixed )
 Masternode PoQ: 5000 ZCR
 Dark Gravity Wave start at: 8000 block 
 

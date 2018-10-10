@@ -1,4 +1,4 @@
-Availabe Configuration commands to be set in zcore.conf or after zcore-cli / zcore-qt binaries.
+Availabe Configuration commands to be set in zcore.conf or after zcored / zcore-qt binaries.
 
 Category | Command | Description
 -|-|-

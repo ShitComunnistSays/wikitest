@@ -1,4 +1,4 @@
-## Before read, read the following:
+## Before begin, read the following:
 
 We are not responsible for your wallet.dat!
 

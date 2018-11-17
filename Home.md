@@ -24,8 +24,9 @@ PrivateSend
 Privacity in your transactions
 
 ```
+*** 
 
-***
+### Wiki Index
 
 Tutorial    | Description        | Link
 ------------|--------------------|--------
@@ -39,7 +40,26 @@ Development | PHP connection to RPC | [Go](https://github.com/zcore-coin/zcore-s
 Development | RPC commands | [Go](https://github.com/zcore-coin/zcore-source/wiki/RPC-commands)
 Development | Wallet commands | [Go](https://github.com/zcore-coin/zcore-source/wiki/Wallet-command-list)
 
+
 ***
+
+### Block reward
+
+Block Reward | Block Span                   | Miner %          | Masternodes %   | Governance %      | H.Round Reward
+-------------|------------------------------|------------------|-----------------|-------------------|---------
+10.0         |0 - 394200                    |  5       (50%)   | 5     (50%)     |  0% (disabled)    | 3942000.00
+9.6 (Halving 4%) |394200 - 788400           |  4.8     (50%)   | 4.8   (50%)     |  0% (disabled)    | 3784320.00
+9.216 (Halving 4%) |788400 - 1182600        |  4.608   (50%)   | 4.608   (50%)   |  0% (disabled)    | 3632947.20
+8.84736 (Halving 4%) |1182600 - 1576800     |  4.42368 (50%)   | 4.42368 (50%)   |  0% (disabled)    | 3487629.31
+8.4934656 (Halving 4%) |1576800 - 1971000   |  4.2467328 (50%) | 4.2467328 (50%) |  0% (disabled)    | 3348124.14
+
+* **NOTE**: Halving may increase in future
+* **NOTE**: After Governance, this table will change. 
+Governance will have 10% of block, Miner keeps with 45% and Masternodes with another 45%.
+
+***
+
+### ZCore Data Folder
 
 O.S.        | ZCore Path
 ------------|---------------
@@ -49,6 +69,8 @@ MacOS      | ~/Library/Application Support/ZCoreCore/
 Linux       | /root/.zcore or /home/USER/.zcore   
 
 ***
+
+### ZCore Nework Ports
 
 RPC Port    | Network       
 ------------|---------------

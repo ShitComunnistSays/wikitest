@@ -17,24 +17,9 @@ https://github.com/zcore-coin/masternode-auto
 
 `su root`
 
-2. Pare o serviço de masternode: 
+2. Execute o script de update:
 
-`systemctl stop worker01.service`
-
-3. Instale a nova carteira com os comandos:
-```
-wget https://github.com/zcore-coin/zcore-source/releases/download/v1.6.3/zcore-1.6.3-x86_64-linux-gnu.tar.gz
-
-tar -xzvf zcore-1.6.3-x86_64-linux-gnu.tar.gz
-
-cd zcore-1.6.3/
-
-cp * /usr/local/ -a
-```
-
-4. Inicie o serviço de masternode:
-
-`systemctl start worker01.service`
+`sudo curl -o- https://raw.githubusercontent.com/zcore-coin/masternode-auto/master/update.sh | bash`
 
 Não é necessário seguir os passos abaixo para Linux.
 

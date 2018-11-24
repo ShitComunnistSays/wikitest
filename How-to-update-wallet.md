@@ -39,11 +39,11 @@ In Wallet v1.6.0 should be:
 
 3. Get latest wallet:
 ```
-wget https://github.com/zcore-coin/zcore-source/releases/download/v1.6.0/zcore-1.6.0-x86_64-linux.tar.gz
+wget https://github.com/zcore-coin/zcore-source/releases/download/v1.6.3/zcore-1.6.3-x86_64-linux-gnu.tar.gz
 
-tar -xzvf zcore-1.6.0-x86_64-linux.tar.gz
+tar -xzvf zcore-1.6.3-x86_64-linux-gnu.tar.gz
 
-cd zcore-1.6.0/
+cd zcore-1.6.3/
 
 cp * /usr/local/ -a
 ```
@@ -92,11 +92,11 @@ Windows x86
 
 2. To install new wallet, run:
 
-   `wget https://github.com/zcore-coin/zcore-source/releases/download/v1.6.0/zcore-1.6.0-x86_64-linux.tar.gz`
+   `wget https://github.com/zcore-coin/zcore-source/releases/download/v1.6.3/zcore-1.6.3-x86_64-linux-gnu.tar.gz`
 
-   `tar -xzvf zcore-1.6.0-x86_64-linux.tar.gz`
+   `tar -xzvf zcore-1.6.3-x86_64-linux-gnu.tar.gz`
 
-   `cd zcore-1.6.0/`
+   `cd zcore-1.6.3/`
 
    `cp * /usr/local/ -a`
 
@@ -142,12 +142,13 @@ R: Besides wallet.dat, if you have a masternode you may need to backup masternod
 
 3. "After update my wallet, should i replace with backup" ?
 ```
-R: That's not necessary. We advice to separate backups from your last wallet and your new wallet.
+R: That's not necessary. 
+   We advice to separate your backups.
 ```
 
 4. "I started my wallet and it gives me EXPIRED status" ?
 ```
 R: This status occurs for many reasons, but it's normal when you have an fork update.
-   You can try to start him, if it continues as EXPIRED, try to remove 'mnpayments.dat' file.
-   If you still gets EXPIRED status, you may need to recreate your masternode.
+   You can try to start him, if it continues EXPIRED, try to remove 'mnpayments.dat' file.
+   If it persist EXPIRED status, you need to recreate your masternode.
 ```

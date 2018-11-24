@@ -23,11 +23,11 @@ https://github.com/zcore-coin/masternode-auto
 
 3. Instale a nova carteira com os comandos:
 ```
-wget https://github.com/zcore-coin/zcore-source/releases/download/v1.6.0/zcore-1.6.0-x86_64-linux.tar.gz
+wget https://github.com/zcore-coin/zcore-source/releases/download/v1.6.3/zcore-1.6.3-x86_64-linux-gnu.tar.gz
 
-tar -xzvf zcore-1.6.0-x86_64-linux.tar.gz
+tar -xzvf zcore-1.6.3-x86_64-linux-gnu.tar.gz
 
-cd zcore-1.6.0/
+cd zcore-1.6.3/
 
 cp * /usr/local/ -a
 ```
@@ -72,11 +72,11 @@ Local de instalação para sistema operacional x86
 
 2. Instale o novo cliente, execute no terminal:
 
-   `wget https://github.com/zcore-coin/zcore-source/releases/download/v1.6.0/zcore-1.6.0-x86_64-linux.tar.gz`
+   `wget https://github.com/zcore-coin/zcore-source/releases/download/v1.6.3/zcore-1.6.3-x86_64-linux-gnu.tar.gz`
 
-   `tar -xzvf zcore-1.6.0-x86_64-linux.tar.gz`
+   `tar -xzvf zcore-1.6.3-x86_64-linux-gnu.tar.gz`
 
-   `cd zcore-1.6.0/`
+   `cd zcore-1.6.3/`
 
    `cp * /usr/local/ -a`
 

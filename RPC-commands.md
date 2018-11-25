@@ -1,16 +1,9 @@
 ## Follow all rpc commands.
 
 ### For specific usage, download wallet and run: help "command"
-### In order to use zcore-cli RPC Cliente, you must first configure zcore.conf
+### In order to use zcore-cli (RPC Client), you need to configure zcore.conf:
 
-#### Windows:
-
-%AppData%/ZCore 
-
-
-#### Linux:
-
-$HOME/.zcore/
+https://github.com/zcore-coin/zcore-source/wiki#ZCore-Data-Folder
 
 #### Add/Change these lines:
 ```
@@ -26,13 +19,13 @@ server=1
 `./zcore-cli COMMAND`
 
 ### Curl 
-`curl --user 'User' --data-binary '{"jsonrpc":"1.0","id":"curltext","method":"getinfo","params":[]}' -H 'content-type:text/plain;' http://127.0.0.1:PORT`
+`curl --user 'User' --data-binary '{"jsonrpc":"1.0","id":"curltext","method":"getinfo","params":[]}' -H 'content-type:text/plain;' http://127.0.0.1:RPCPORT`
 
 *User is the same **rpcuser **in zcore.conf
 *Password is the same **rpcpassword **in zcore.conf
 *PORT is the same **rpcport **in zcore.conf
 
-### Windows:
+### Desktop Wallet:
 Go to **Tools / Debug Console** and run the command.
 
 

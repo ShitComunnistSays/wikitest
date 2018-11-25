@@ -21,7 +21,7 @@ zcore.conf | Arquivo com configurações da carteira, e se usado por masternode,
 ## Windows / MacOS 
 1. Encontre a pasta de acordo com seu sistema operacional.
 
-https://github.com/zcore-coin/zcore-source/wiki
+https://github.com/zcore-coin/zcore-source/wiki#ZCore-Data-Folder
 
 2. Faça backup dos arquivos acima para sua pasta final de backup.
 
